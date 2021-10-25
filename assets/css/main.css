@@ -6,6 +6,39 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+#divCenter {
+	margin:0px auto;
+	width:960px; 
+	height:auto;
+	padding:10px;
+  }
+  
+   #divIDOne {
+	   margin-right: 0px;
+   }
+  
+   #divIDTwo {
+	 margin-left: 20px;
+   }
+   #divIDThree {
+	margin-left: 20px;
+  }
+  .column {
+	float: left;
+	width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  #logo{ 
+	position:fixed; 
+	top:10px; 
+	left:40px; 
+} 
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -566,7 +599,6 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 1680px) {
-
 			.row {
 				display: flex;
 				flex-wrap: wrap;
